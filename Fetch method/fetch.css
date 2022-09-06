@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 1.5rem;
+
+}
+#cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* #cards:hover{
+    box-shadow: 1px solid blanchedalmond;
+    background-color: blueviolet;
+} */
+#card{
+    width: 23%;
+    box-shadow: 0 0 4px pink;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+.title{
+    font-size: 3rem;
+}
+.categoury,.price{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+.imges{
+    border: 1px solid pink;
+    width: 80%;
+}
